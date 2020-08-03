@@ -11,7 +11,6 @@ RUN apt-get update && apt-get -y install tcl-dev clang
 
 
 RUN rustup toolchain add nightly
-RUN rustup default nightly
 RUN rustup update
 RUN rustup component add rustfmt
 
